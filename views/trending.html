@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Trending Now</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../public/css/main.css">
+      <script src="../app.js"></script>
+      
+   </head>
+   <body>
+    <header >
+        <a class="logo" href="index.html"><img src="../public/images/logo.png" alt=""></a>
+        <form action="trending.html" ><button >Trending</button></form>
+        <form action="search.html"><button>Search</button></form>
+    </header>
+    <main class= "trending">       
+        <input type="button" value="Trending Anime" onclick="topAnime();"></button> 
+        <input type="button" value="Trending Manga" onclick="topManga();"></button> 
+
+        <!-- <form action="trending.html" onclick="topAnime();"><button>trending</button></form> -->
+
+        <!-- <a class="mytopanime" href="#" onclick="topAnime()" >Top Anime <span></span></a>  -->
+        <div id="top-results" class="mytopanime"></div>
+
+    </main>
+</body>
+    <footer >
+        <p>Copyright &#169; 2022 MYAT WIN. All rights reserved</p>
+        <a href="index.html">Home</a>
+        
+    </footer>   
+
+
+</html>

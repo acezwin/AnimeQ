@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    padding-top: 70px;
+    height: 50px;
+}
+
+a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 8px;
+    background-color: rgb(211, 137, 0);
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+button:hover{
+    padding: 8px;
+    background-color: rgb(179, 118, 6);
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Landing page content style */
+.home h1{
+    color:rgb(0, 0, 0);
+    margin-left: 230px;
+    font-size: 80px;
+}
+.home h2{
+    color:rgb(0, 0, 0);
+    margin-left: 200px;
+}
+.landingPage{
+    margin-left: 200px;
+}
+
+/* ANIME SEARCH */
+
+.anime-title-text{
+    width: 90%;
+    color: rgb(7, 5, 5);
+    text-align: center;
+    padding: 12px 85px;
+    font-size: 62px;
+}
+
+
+
+.text-box-anime{
+    padding: 12px 45px;
+    text-align: center;
+}
+
+.anime-input-box{
+    min-height: 3.95vh;
+    width: 30%;
+}
+
+/* POST-SEARCH ANIME - app.js */
+.trending input{
+    margin-top: 20px;
+    margin-left: 490px;
+}
+
+.top10{
+    margin-left: 200px;
+}
+
+
+.card-title{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+
+.card-title b{
+    opacity: 0;
+}  
